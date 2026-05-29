@@ -10,10 +10,10 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 
 </head>
 
@@ -30,6 +30,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 <li><a href="#about">About</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#projects">Projects</a></li>
+<li><a href="#services">Services</a></li>
 <li><a href="#contact">Contact</a></li>
 
 </ul>
@@ -41,14 +42,23 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
 <header class="hero">
 
+<div class="hero-content">
+
 <img src="profile.jpg" class="hero-img">
 
-<h1>Hi, I'm <span>Mehreen Sadiq</span></h1>
+<h1>
+Hi, I'm <span>Mehreen Sadiq</span>
+</h1>
 
-<p>
-BS Mathematics (Finance) Student  
-AI Enthusiast • Data Analyst
+<p class="hero-text">
+AI Enthusiast • Data Analyst • Mathematics Graduate
 </p>
+
+<a href="#projects" class="hero-btn">
+Explore My Work
+</a>
+
+</div>
 
 </header>
 
@@ -61,13 +71,13 @@ AI Enthusiast • Data Analyst
 
 <p>
 
-I am a BS Mathematics student specializing in Finance with a strong interest in Artificial Intelligence and Data Analysis.
+I am a Mathematics graduate with a strong interest in Artificial Intelligence and Data Analysis.
 
-My mathematical background helps me understand statistical models, probability theory and analytical techniques used in modern AI systems.
+My mathematical background helps me understand statistical models, probability theory, and analytical techniques used in modern AI systems.
 
 I enjoy working with tools like Python, Excel, and Hugging Face to explore machine learning models and analyze real-world datasets.
 
-My goal is to build a career combining Mathematics, Finance, and Artificial Intelligence to create intelligent data-driven solutions.
+My goal is to build intelligent AI solutions that combine Mathematics, Machine Learning, and Data Analysis to solve real-world problems efficiently.
 
 </p>
 
@@ -84,10 +94,12 @@ My goal is to build a career combining Mathematics, Finance, and Artificial Inte
 
 <div class="skill-card">
 
+<i class="fa-solid fa-brain"></i>
+
 <h3>Problem Solving</h3>
 
 <p>
-Applying mathematical thinking to solve complex analytical problems.
+Applying analytical and mathematical thinking to solve complex real-world problems efficiently.
 </p>
 
 </div>
@@ -95,43 +107,51 @@ Applying mathematical thinking to solve complex analytical problems.
 
 <div class="skill-card">
 
-<h3>Machine Learning</h3>
-
-<p>
-Experience building regression models for predictive analytics.
-</p>
-
-</div>
-
-
-<div class="skill-card">
+<i class="fa-solid fa-chart-line"></i>
 
 <h3>Data Analysis</h3>
 
 <p>
-Analyzing datasets to identify patterns and insights.
+Analyzing datasets and extracting valuable insights using modern analytical methods.
 </p>
 
 </div>
 
 
 <div class="skill-card">
+
+<i class="fa-solid fa-robot"></i>
+
+<h3>Machine Learning</h3>
+
+<p>
+Building predictive AI systems and intelligent analytical models.
+</p>
+
+</div>
+
+
+<div class="skill-card">
+
+<i class="fa-brands fa-python"></i>
 
 <h3>Python</h3>
 
 <p>
-Using Python for data analysis and machine learning models.
+Using Python for machine learning, automation, forecasting, and AI projects.
 </p>
 
 </div>
 
 
 <div class="skill-card">
+
+<i class="fa-solid fa-file-excel"></i>
 
 <h3>Excel</h3>
 
 <p>
-Data organization, analysis and visualization using Excel tools.
+Professional data organization, analysis, and visualization using Excel tools.
 </p>
 
 </div>
@@ -139,10 +159,12 @@ Data organization, analysis and visualization using Excel tools.
 
 <div class="skill-card">
 
+<i class="fa-solid fa-users"></i>
+
 <h3>Leadership</h3>
 
 <p>
-Participated in BZU Idea2Career and Business Startup Expo.
+Collaborative teamwork and leadership experience through academic activities.
 </p>
 
 </div>
@@ -156,35 +178,198 @@ Participated in BZU Idea2Career and Business Startup Expo.
 
 <section id="projects">
 
-<h2>Projects & Certificates</h2>
+<h2>Projects</h2>
 
-<div class="project-grid">
+<div class="projects-grid">
+
+<!-- PROJECT 1 -->
 
 <div class="project-card">
 
-<img src="regression.jpg">
+<img src="project.jpg">
 
-<h3>House Price Prediction</h3>
+<h3>
+AI-Based MCB Bank Customer Attrition Prediction & Retention Intelligence System
+</h3>
 
 <p>
 
-Regression based machine learning model developed to predict house prices using property features and data analysis.
+An AI-powered intelligent system developed to predict customer churn and improve retention strategies for MCB Bank using machine learning and analytical models.
 
+</p>
+
+<a href="https://huggingface.co/spaces/mehreen2712/MCB-Churn-Dashboard"
+target="_blank"
+class="project-btn">
+
+View Project
+
+</a>
+
+</div>
+
+
+<!-- PROJECT 2 -->
+
+<div class="project-card">
+
+<h3>Migration Problem AI System</h3>
+
+<p>
+
+AI-based analytical project focused on migration related data analysis and intelligent prediction systems.
+
+</p>
+
+<a href="https://huggingface.co/spaces/mehreen2712/Migration_project"
+target="_blank"
+class="project-btn">
+
+View Project
+
+</a>
+
+</div>
+
+
+<!-- PROJECT 3 -->
+
+<div class="project-card">
+
+<h3>Query Docs Engine</h3>
+
+<p>
+
+Smart AI document query engine capable of extracting and answering queries from uploaded documents efficiently.
+
+</p>
+
+<a href="https://huggingface.co/spaces/mehreen2712/Query_Docs_Engine"
+target="_blank"
+class="project-btn">
+
+View Project
+
+</a>
+
+</div>
+
+
+<!-- PROJECT 4 -->
+
+<div class="project-card">
+
+<h3>Study Buddy</h3>
+
+<p>
+
+AI-powered educational assistant designed to support students in learning and study activities.
+
+</p>
+
+<a href="https://huggingface.co/spaces/mehreen2712/Study_buddy"
+target="_blank"
+class="project-btn">
+
+View Project
+
+</a>
+
+</div>
+
+
+<!-- PROJECT 5 -->
+
+<div class="project-card">
+
+<h3>Urdu to English Translator</h3>
+
+<p>
+
+AI-based language translation system that converts Urdu text into English accurately.
+
+</p>
+
+<a href="https://huggingface.co/spaces/mehreen2712/Translator/start"
+target="_blank"
+class="project-btn">
+
+View Project
+
+</a>
+
+</div>
+
+
+<!-- PROJECT 6 -->
+
+<div class="project-card">
+
+<h3>Universal Voice Chatbot</h3>
+
+<p>
+
+AI-powered universal voice chatbot capable of intelligent communication and real-time voice interaction.
+
+</p>
+
+<a href="https://huggingface.co/spaces/mehreen2712/universal_voice_chat"
+target="_blank"
+class="project-btn">
+
+View Project
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section id="services">
+
+<h2>Services</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+
+<i class="fa-solid fa-code"></i>
+
+<h3>Website Development</h3>
+
+<p>
+Modern responsive portfolio and business websites with professional UI design.
 </p>
 
 </div>
 
 
-<div class="project-card">
+<div class="skill-card">
 
-<img src="certificate.jpg">
+<i class="fa-solid fa-laptop-code"></i>
 
-<h3>Business Startup Expo</h3>
+<h3>Portfolio Websites</h3>
 
 <p>
+Professional portfolio websites for students and professionals.
+</p>
 
-Certificate of participation in BZU Business Startup Expo for innovative ideas and entrepreneurship learning.
+</div>
 
+
+<div class="skill-card">
+
+<i class="fa-solid fa-chart-pie"></i>
+
+<h3>Data Analysis</h3>
+
+<p>
+Analyzing and visualizing data using Excel, Python, and machine learning tools.
 </p>
 
 </div>
@@ -208,7 +393,9 @@ Certificate of participation in BZU Business Startup Expo for innovative ideas a
 
 </a>
 
-<a href="https://linkedin.com/in/mehreen-khan-66107a321" target="_blank">
+
+<a href="https://www.linkedin.com/in/mehreen-khan-66107a321"
+target="_blank">
 
 <i class="fa-brands fa-linkedin"></i>
 
@@ -221,10 +408,11 @@ Certificate of participation in BZU Business Startup Expo for innovative ideas a
 
 <footer>
 
-<p>© 2026 Mehreen Sadiq Portfolio</p>
+<p>
+© 2026 Mehreen Sadiq Portfolio
+</p>
 
 </footer>
-
 
 </body>
 
